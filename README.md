@@ -34,8 +34,7 @@ The results are collected and the following attributes are saved:
 - user_name
 - full_text
 - favourites_count (*likes*)
-- retweets_count![Wordcloud](https://user-images.githubusercontent.com/27780725/142063318-a7cc1f4b-5f24-4d7a-bc1e-1cc3dc09345b.png)
-
+- retweets_count
 - quoted (if it's not empty, the current tweet is the quote of another one, which is saved with the same attributes)
 
 Tweets are retrieved querying tweepy, then they are saved in a JSON file following this naming scheme:
