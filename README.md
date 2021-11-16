@@ -54,29 +54,15 @@ Several statistics are computed on the retrieved tweets, on the whole dataset an
 - Standard Deviation
 - Weighted Average
 - Standard Deviation of the weights
-+------------+------------------+----------------------------+------------------+----------------------------+
-|    Date    | Standard Average | Standard Average Deviation | Weighted Average | Weighted Average Deviation |
-+------------+------------------+----------------------------+------------------+----------------------------+
-| 2021-02-15 |      0.238       |           0.429            |       0.05       |           0.176            |
-| 2021-02-16 |      0.253       |           0.427            |      -0.008      |           0.189            |
-| 2021-02-17 |       0.24       |           0.315            |       0.25       |           0.373            |
-| 2021-02-18 |      0.115       |           0.428            |      0.026       |            0.31            |
-| 2021-02-19 |      0.079       |           0.461            |      0.255       |           0.463            |
-| 2021-02-20 |       0.14       |           0.442            |      0.346       |           0.348            |
-| 2021-02-21 |      0.201       |           0.419            |      0.332       |           0.425            |
-| 2021-02-22 |      0.284       |           0.414            |      0.441       |           0.512            |
-| 2021-02-23 |      0.068       |           0.494            |       0.02       |           0.371            |
-|  average   |       0.18       |           0.425            |      0.352       |           0.352            |
-+------------+------------------+----------------------------+------------------+----------------------------+
+
+![SentimentComputing](https://user-images.githubusercontent.com/27780725/142066570-86ab2feb-3499-4eb3-8428-1f1b3835cd2a.png)
+
 
 Additional statistical measures are available considering the *degree* as the sum of retweet_count and favorite_count (+1, to keep in consideration even the writer of the tweet):
 - Covariance (between sentiment and degree)
 - Correlation (between sentiment and degree)
-+-----------------+------------+-------------+
-| Average Sharing | Covariance | Correlation |
-+-----------------+------------+-------------+
-|      24.956     |   0.796    |     0.01    |
-+-----------------+------------+-------------+
+
+![CovarianceCorrelation](https://user-images.githubusercontent.com/27780725/142066553-34ba2edf-8570-449b-a331-08a35c19225b.png)
 
 ### Outputs 
 
