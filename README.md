@@ -75,6 +75,7 @@ For each day, a GEXF (https://gephi.org/gexf/format/index.html) graph is created
 ![GephiGraphPos](https://user-images.githubusercontent.com/27780725/142061179-28f9b35e-5260-4800-85f9-b2fd1047ec44.png)
 
 Finally, a WordCloud image is used by mean of "Flag_of_Italy.png" image, displaying most recurrent words as parts of the flag itself.
+
 ![Wordcloud](https://user-images.githubusercontent.com/27780725/142063351-04fa7996-e867-492f-a828-cc58dbb0fc72.png)
 
 ## utils.py
